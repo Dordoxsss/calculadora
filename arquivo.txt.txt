@@ -1,0 +1,11 @@
+#COMANDOS
+#para entar no diretório
+cd /home/usuario/Documentos/...
+#para criar o arquivo
+nano calculadora.sh
+#para fazer alteração de permissão e se tornar executavel
+chmod +x calculadora.sh
+#apenas o proprietário com permissão de escrita e os outros com permissão de leitura
+chmod 744 calculadora.sh
+#p/ executar
+./calculadora.sh
